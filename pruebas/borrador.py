@@ -1,1 +1,0 @@
-print(len("python")) == 5 and (1 + '1') == 2
