@@ -29,7 +29,7 @@ int main() {
     // Mostrar un mensaje por consola (stdio.h)
     printf("Hola mundo\n"); 
 
-    // Copiar una cadena (string.h)
+    /* Copiar una cadena (string.h)
     char nombre[50];
     strcpy(nombre, "Facundo"); 
 
@@ -53,5 +53,5 @@ int main() {
     // Mostrar ventana emergente (windows.h)
     MessageBox(NULL, "Ventana simple", "Desde C", MB_OK); 
 
-    return 0;
+    return 0;*/
 }
