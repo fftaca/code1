@@ -2,13 +2,14 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Compilar C",
+      "label": "Compilar C (GUI sin consola)",
       "type": "shell",
       "command": "gcc",
       "args": [
         "${file}",
         "-o",
-        "${workspaceFolder}/output/${fileBasenameNoExtension}.exe"
+        "${workspaceFolder}/output/${fileBasenameNoExtension}.exe",
+        "-mwindows"
       ],
       "options": {
         "cwd": "${workspaceFolder}"
