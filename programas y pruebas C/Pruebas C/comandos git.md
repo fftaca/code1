@@ -1,3 +1,16 @@
+### /*Comandos principales para subir y actualizar cambios a local*/ ###
+
+git status        # Muestra los archivos modificados y el estado actual del repo
+
+git add .         # Agrega todos los archivos modificados al área de preparación (stage)
+
+git commit -m "Descripción de los cambios"  # Crea un commit con los cambios preparados
+
+git push          # Sube los commits locales al repositorio remoto (GitHub)
+
+git pull          # Trae y aplica los últimos cambios del repositorio remoto a tu carpeta local
+-------------------------------------------------------------------------------------------------------------------
+
 ## Comandos Git Básicos
 
 ### 🔗 Configuración y conexión
