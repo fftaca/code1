@@ -1,0 +1,28 @@
+# Ejecutables de compilación
+*.exe
+*.out
+*.obj
+*.o
+
+# Carpetas de salida
+/output/
+build/
+Debug/
+Release/
+
+# Archivos temporales y backups
+*~
+*.tmp
+*.log
+*.swp
+*.bak
+
+# VS Code settings (si no querés compartirlos)
+# .vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Git
+.git/

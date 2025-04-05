@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar C",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "${file}",
+        "-o",
+        "${workspaceFolder}/output/${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

@@ -8,7 +8,7 @@
       "args": [
         "${file}",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}.exe"
+        "${workspaceFolder}/Pruebas C/output/${fileBasenameNoExtension}.exe"
       ],
       "options": {
         "cwd": "${fileDirname}"
@@ -23,9 +23,9 @@
       "label": "Ejecutar .exe",
       "type": "shell",
       "dependsOn": "Compilar y Ejecutar C",
-      "command": "${fileDirname}/${fileBasenameNoExtension}.exe",
+      "command": "${workspaceFolder}/Pruebas C/output/${fileBasenameNoExtension}.exe",
       "options": {
-        "cwd": "${fileDirname}"
+        "cwd": "${workspaceFolder}/Pruebas C/output"
       },
       "group": {
         "kind": "test",
